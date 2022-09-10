@@ -8,6 +8,7 @@ import sys
  
 class Window(QWidget):
  
+    
     def __init__(self):
         super().__init__()
  
@@ -22,6 +23,8 @@ class Window(QWidget):
  
         # showing all the widgets
         self.show()
+
+        
  
         # method for widgets
     def UiComponents(self):

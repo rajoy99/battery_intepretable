@@ -6,7 +6,7 @@ class LoginForm(QWidget):
 		super().__init__()
 		self.setWindowTitle('Battery Voltage Prediction App')
 		self.resize(900, 820)
-        equation = self.label.text()
+        
 
 		layout = QGridLayout()
 
@@ -28,6 +28,7 @@ class LoginForm(QWidget):
 		layout.setRowMinimumHeight(2, 75)
 
 		self.setLayout(layout)
+
 
 	def check_password(self):
             
