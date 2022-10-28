@@ -7,7 +7,7 @@ rfr = load('RFRegressor.joblib')
 import numpy as np
 import sklearn
 
-class LoginForm(QWidget):
+class Pith(QWidget):
 	def __init__(self):
 		super().__init__()
 		self.setWindowTitle('Battery Voltage Prediction App')
@@ -73,7 +73,7 @@ class LoginForm(QWidget):
 if __name__ == '__main__':
 	app = QApplication(sys.argv)
 
-	form = LoginForm()
+	form = Pith()
 	form.show()
 
 	sys.exit(app.exec_())
