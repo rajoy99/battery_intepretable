@@ -6,3 +6,5 @@ Interpretation of machine learning models is one of the key ways to get intuitio
 
 # Findings
 We show that by excluding low impact features that we figure out from our interpretation, we can get better accuracy in our model. We achieve a maximum $R^2$ score of 0.9908 and minimum RMSE of 0.1205 in estimating DFT calculated maximum voltage which outperforms other approaches in existing literatures on the same dataset. 
+
+![SHAP summary plot XGboost model](https://github.com/rajoy99/battery_intepretable/blob/main/summaryplotXgboost.png "SHAP summary plot XGboost model")
